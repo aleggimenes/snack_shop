@@ -1,0 +1,52 @@
+{
+  "best": [
+    {
+      "id": "1",
+      "src": "./img/bestburger/best_1.png",
+      "name": "CRISPY CHICKEN",
+      "description": "This burger features a breaded and fried chicken breast served on a soft bun with lettuce, tomato, and mayonnaise.",
+      "value": "6.99 USD"
+    },
+    {
+      "id": "2",
+      "src": "./img/bestburger/best_2.png",
+      "name": "ULTIMATE BACON",
+      "description": "This burger is a meat-lover's dream come true. It features a juicy beef patty topped with crispy bacon, melted cheddar.",
+      "value": "9.99 USD"
+    },
+    {
+      "id": "3",
+      "src": "./img/bestburger/best_3.png",
+      "name": "SMOKEY HOUSE",
+      "description": "This burger is all about the smoky flavor. It features a beef patty cooked over an open flame and topped with smoked bacon.",
+      "value": "7.99 USD"
+    },
+    {
+      "id": "4",
+      "src": "./img/bestburger/best_4.png",
+      "name": "TURKEY BURGER",
+      "description": "Burger is a healthier option for those who want to enjoy a burger without guilt. It features a ground turkey patty seasoned.",
+      "value": "5.49 USD"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "src": "./img/person_1.png",
+      "name": "Darrrell Steward",
+      "description": "The Fastos is my favorite fast food chain. The burgers are juicy and flavorful, the fries are crispy, and the milkshakes are the perfect treat. It's the perfect place to indulge in some guilty pleasure fast food."
+    },
+    {
+      "id": "2",
+      "src": "./img/person_2.png",
+      "name": "Darlene Robertson",
+      "description": "I have been a regular customer at the Fastos for years and it never disappoints. The food is consistently delicious and the service is always friendly and efficient. It's my go-to spot for a quick and satisfying meal."
+    },
+    {
+      "id": "3",
+      "src": "./img/person_3.png",
+      "name": "Courtney Henry",
+      "description": "I recently tried the plant-based burger at the Fast Food place and was blown away by how tasty it was. I appreciate that they offer options for vegetarians and vegans, and the quality of their plant-based options is top-notch."
+    }
+  ]
+}

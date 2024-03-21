@@ -1,0 +1,66 @@
+.banner-menu--section {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 473px;
+  background-color: var(--red);
+  padding-top: 90px;
+}
+.banner-menu--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+.banner-menu--h1 {
+  color: var(--white);
+  text-align: center;
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 84px;
+  margin-top: 80px;
+}
+.banner-menu--image {
+  width: calc(
+    47% + 90px
+  ); /* Ajusta a largura da imagem para que ela ultrapasse o limite da caixa */
+  z-index: 10;
+}
+.btn-primary-banner-menu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 90px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: var(--white);
+  background-color: #262626;
+  justify-content: space-around;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  position: relative;
+  top: 89%;
+  padding: 20px;
+  z-index: 888;
+}
+.btn-primary-banner-menu:hover {
+  color: var(--black);
+  background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-menu--h1 {
+        font-size: 40px;
+    }
+}
