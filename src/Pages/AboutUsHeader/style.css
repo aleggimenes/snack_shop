@@ -1,0 +1,32 @@
+.menu--header--section {
+    min-height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.8)),
+      url("../../../public/img/about_us_bg.png");
+    background-position: 0 0, 0 0, 50%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+  
+  .menu--header-h1 {
+    color: var(--white);
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .banner-contain-buttons {
+      flex-direction: column;
+    }
+  }
+  

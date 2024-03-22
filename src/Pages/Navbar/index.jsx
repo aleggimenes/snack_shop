@@ -33,15 +33,9 @@ function Navbar() {
   }, []);
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <Link
-        to="heroSection"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      >
+      <a href="/" spy="true" smooth="true" offset={-70} duration={500}>
         <img src="./img/logo.svg" className="navbar--img" />
-      </Link>
+      </a>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -53,46 +47,46 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <Link
+            <a
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeclass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="howtotrade"
+              href="/menu"
               className="navbar--content"
             >
               MENU
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeclass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="tradeplace"
+              href="/aboutUs"
               className="navbar--content"
             >
               ABOUT US
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               onClick={closeMenu}
-              activeClass="navbar--active-content"
+              activeclass="navbar--active-content"
               spy={true}
               smooth={true}
+              href="/ourservices"
               offset={-70}
               duration={500}
-              to="features"
               className="navbar--content"
             >
               OUR SERVICES
-            </Link>
+            </a>
           </li>
           <li>
             <FaShoppingCart color="red" className="navbar--content" />

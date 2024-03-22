@@ -1,5 +1,5 @@
 {
-  "best": [
+  "burger": [
     {
       "id": "1",
       "src": "./img/bestburger/best_1.png",
@@ -29,6 +29,50 @@
       "value": "5.49 USD"
     }
   ],
+  "drink": [
+    {
+      "id": "1",
+      "src": "./img/drink/drink_1.png",
+      "name": "SOFT DRINK",
+      "description": "Classic soft drinks like Coca-Cola, Pepsi, Sprite, and Fanta are a popular choice at fast food restaurants. ",
+      "value": "20.00 USD"
+    },
+    {
+      "id": "2",
+      "src": "./img/drink/drink_2.png",
+      "name": "MILKSHAKE",
+      "description": "Thick and creamy milkshakes made with ice cream and milk are a popular beverage option at fast food restaurants. ",
+      "value": "80.00 USD"
+    },
+    {
+      "id": "3",
+      "src": "./img/drink/drink_3.png",
+      "name": "ICED TEA",
+      "description": "Iced tea is a popular alternative to soda and is a refreshing and healthy option. ",
+      "value": "50.00 USD"
+    },
+    {
+      "id": "4",
+      "src": "./img/drink/drink_4.png",
+      "name": "LEMONADE",
+      "description": "Lemonade is a sweet and tangy beverage made by combining lemon juice, sugar, and water.",
+      "value": "40.00 USD"
+    },
+    {
+      "id": "5",
+      "src": "./img/drink/drink_5.png",
+      "name": "SMOOTHIES",
+      "description": "Smoothies are a healthy and delicious beverage option that are made by blending fruit, yogurt, and ice together. ",
+      "value": "140.00 USD"
+    },
+    {
+      "id": "6",
+      "src": "./img/drink/drink_6.png",
+      "name": "COFFEE",
+      "description": "Coffee is a popular choice for those who need a quick caffeine boost in the morning or afternoon. ",
+      "value": "80.00 USD"
+    }
+  ],
   "testimonial": [
     {
       "id": "1",
@@ -47,6 +91,44 @@
       "src": "./img/person_3.png",
       "name": "Courtney Henry",
       "description": "I recently tried the plant-based burger at the Fast Food place and was blown away by how tasty it was. I appreciate that they offer options for vegetarians and vegans, and the quality of their plant-based options is top-notch."
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "src": "./img/our_services/service_1.png",
+      "name": "Convenient Food",
+      "description": "We understand that our customers are busy and on-the-go, so we make it a priority to provide fast and convenient food options. "
+    },
+    {
+      "id": "2",
+      "src": "./img/our_services/service_2.png",
+      "name": "Dine-in or Takeout",
+      "description": "We offer both dine-in and takeout services for our customers. If you're in a rush or just prefer to enjoy your meal at home, our takeout service is perfect for you. "
+    },
+    {
+      "id": "3",
+      "src": "./img/our_services/service_3.png",
+      "name": "Delivery Service",
+      "description": "We also offer delivery service for our customers who prefer to have their food delivered directly to their doorstep."
+    },
+    {
+      "id": "4",
+      "src": "./img/our_services/service_4.png",
+      "name": "Catering Services",
+      "description": "Our catering menu includes a variety of options to choose from and we'll work with you to create a customized menu that meets your specific needs."
+    },
+    {
+      "id": "5",
+      "src": "./img/our_services/service_5.png",
+      "name": "Special Offers",
+      "description": "We love to reward our loyal customers, which is why we offer special offers and promotions throughout the year. "
+    },
+    {
+      "id": "6",
+      "src": "./img/our_services/service_6.png",
+      "name": "Online Ordering",
+      "description": "With just a few clicks, you can easily place your order and have it ready for pickup or delivery."
     }
   ]
 }

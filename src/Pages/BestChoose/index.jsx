@@ -31,7 +31,7 @@ export default function BestChoose() {
         </p>
       </motion.div>
       <motion.div className="choose-product">
-        {data?.best?.map((item, index) => (
+        {data?.burger?.map((item, index) => (
           <motion.div
             className="choose-product-container"
             initial={{ opacity: 0, y: 50 }}
