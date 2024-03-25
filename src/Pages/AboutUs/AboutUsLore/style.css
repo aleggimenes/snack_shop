@@ -4,7 +4,7 @@
   justify-content: center;
   margin: 0px auto;
   align-items: center;
-  width: 80%;
+  max-width: 1200px;
   margin-bottom: 120px;
 }
 .about--container {
@@ -68,6 +68,7 @@
   width: 97%;
   padding: 25px;
   border-radius: 30px;
+  margin-bottom: 90px;
 }
 .about--overrall--container {
   background-color: #ff8a00;

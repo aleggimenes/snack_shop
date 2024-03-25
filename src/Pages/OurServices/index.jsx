@@ -1,9 +1,9 @@
 import React from "react";
 import Footer from "../Footer";
 import Testimonial from "../Testimonial";
-import ServiceHeader from "../OurServicesHeader";
-import OurServiceList from "../OurServiceList";
-import OurServiceBanner from "../OurServiceBanner";
+import ServiceHeader from "./OurServicesHeader";
+import OurServiceList from "./OurServiceList";
+import OurServiceBanner from "./OurServiceBanner";
 import OurDelivery from "../OurDelivery";
 export default function OurServices() {
   return (
@@ -12,7 +12,7 @@ export default function OurServices() {
       <OurServiceList />
       <OurServiceBanner />
       <OurDelivery />
-      <Testimonial style={{backgroundColor:'#fff'}}/>
+      <Testimonial/>
       <Footer />
     </>
   );

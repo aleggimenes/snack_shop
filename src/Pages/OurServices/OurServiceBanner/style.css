@@ -1,6 +1,6 @@
 .service--banner--section {
   min-height: 500px;
-  background-image: url("../../../public/img/banner_service.png");
+  background-image: url("../../../../public/img/banner_service.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;

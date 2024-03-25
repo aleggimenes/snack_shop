@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { motion } from "framer-motion";
 import { FaShoppingCart } from "react-icons/fa";
-import data from "../../data/data.json";
+import data from "../../../data/data.json";
 import { useInView } from "react-intersection-observer";
 
 export default function OurServiceList() {

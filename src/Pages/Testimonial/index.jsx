@@ -1,4 +1,4 @@
-import Reac, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { FaRegStar } from "react-icons/fa";
 import data from "../../data/data.json";
