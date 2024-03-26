@@ -20,7 +20,7 @@ export default function Delivery() {
         <motion.div
           className="delivery--container--img"
           initial={{ opacity: 0, x: isVisible ? -90 : 0 }}
-          animate={{ opacity: isVisible ? 1 : 0, x: isVisible? 0 : -90 }}
+          animate={{ opacity: isVisible ? 1 : 0, x: isVisible ? 0 : -90 }}
           transition={{ duration: 1 }}
           ref={ref}
         >
@@ -46,7 +46,9 @@ export default function Delivery() {
             <br />
             food delivered right to your doorstep.
           </p>
-          <button className="btn-delivery-product">ORDER NOW</button>
+          <a href="/menu">
+            <button className="btn-delivery-product">ORDER NOW</button>
+          </a>
         </motion.div>
       </div>
     </section>

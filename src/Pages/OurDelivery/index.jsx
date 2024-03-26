@@ -42,7 +42,7 @@ export default function OurDelivery() {
           </div>
           <div className="service--delivery--info--box">
             <img
-              src="./img/our_services/service_3.png"
+              src="./img/our_services/service_2.png"
               style={{ width: "70px", height: "70px" }}
             />
             <p className="service--delivery--info--box--p">

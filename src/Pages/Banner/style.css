@@ -93,6 +93,9 @@
     padding-left: 0px;
     width: 100%;
   }
+  .banner-icon-container {
+    display: none;
+  }
   .banner--container--left-h1 {
     font-size: 35px;
   }

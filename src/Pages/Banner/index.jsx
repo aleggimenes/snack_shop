@@ -51,7 +51,9 @@ export default function Banner() {
               don't feel like cooking, fast food services provide a convenient
               solution.
             </p>
-            <button className="btn-primary">OUR SERVICES</button>
+            <a href="/ourservices">
+              <button className="btn-primary">OUR SERVICES</button>
+            </a>
           </div>
         </div>
       ) : (

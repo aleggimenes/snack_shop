@@ -58,14 +58,16 @@ export default function HeroSection() {
           <br /> delivered right to your doorstep.
         </motion.p>
         <div className="banner-contain-buttons">
-          <motion.button
-            className="btn-primary"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-          >
-            BUY NOW
-          </motion.button>
+          <a href="/menu">
+            <motion.button
+              className="btn-primary"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+            >
+              BUY NOW
+            </motion.button>
+          </a>
           <motion.span className="banner-container-span">
             <motion.a className="banner-container-a" onClick={openModal}>
               HOW TO ORDER
@@ -97,11 +99,21 @@ export default function HeroSection() {
               height: "70%",
               zIndex: 99,
               border: "none",
-              backgroundColor:'transparent'
+              backgroundColor: "transparent",
             },
           }}
         >
-          <div style={{display:'flex', flexDirection:'row', alignItems:'flex-start', justifyContent:'space-between',width:'90%', height:'90%', padding:'30px'}}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "flex-start",
+              justifyContent: "space-between",
+              width: "90%",
+              height: "90%",
+              padding: "30px",
+            }}
+          >
             <iframe
               width="90%"
               height="90%"

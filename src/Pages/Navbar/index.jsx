@@ -1,8 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { FaShoppingCart } from "react-icons/fa";
+import CartModal from "../../Component/Cart";
 import "./style.css";
 function Navbar() {
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [cartItems, setCartItems] = useState([]); // Adicione um estado para o carrinho
+
+  const openCart = () => {
+    setIsCartOpen(true);
+  };
+
+  const closeCart = () => {
+    setIsCartOpen(false);
+  };
+
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => {
@@ -25,6 +37,10 @@ function Navbar() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const updateCartItems = (updatedCartItems) => {
+    setCartItems(updatedCartItems);
+  };
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
@@ -89,13 +105,24 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <FaShoppingCart color="red" className="navbar--content" />
+            <FaShoppingCart
+              color="red"
+              className="navbar--content"
+              onClick={openCart}
+            />
           </li>
           <li style={{ width: "226px" }}>
             <button className="btn-primary">ORDER NOW</button>
           </li>
         </ul>
       </div>
+      {isCartOpen && (
+        <CartModal
+          isOpen={isCartOpen}
+          onClose={closeCart}
+          updateCartItems={updateCartItems}
+        />
+      )}
     </nav>
   );
 }

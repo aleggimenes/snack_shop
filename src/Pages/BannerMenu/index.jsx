@@ -25,15 +25,15 @@ export default function BannerMenu() {
         transition={{ duration: 0.9 }}
         ref={ref} // Referência para o uso do inView
       >
-        <motion.button
+        <a
           className="btn-primary-banner-menu"
+          href="/menu"
           initial={{ opacity: 0, y: 100 }} // Define o tamanho inicial como 1.5 vezes o tamanho normal
           animate={{ opacity: isVisible ? 1 : 0, y: 0 }}
           transition={{ duration: 2.5 }} // Define a duração da transição
         >
           VIEW MENU
-        </motion.button>
-
+        </a>
         <motion.h1
           className="banner-menu--h1"
           initial={{ opacity: 0, y: isVisible ? 200 : 0 }} // Define o tamanho inicial como 1.5 vezes o tamanho normal
